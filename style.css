@@ -1,0 +1,471 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+    font-size: 14px;
+}
+.daraz-header{
+    line-height: 25px;
+    padding-bottom: 40px;
+}
+.daraz-header .header-wrapper{
+    background-color: #e5e5e5;
+    padding-left: 330px;
+
+}
+.daraz-header .header-wrapper a{
+    text-decoration: none;
+    color: black;
+    margin-left: 30px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.daraz-header .header-wrapper a:first-child{
+    color: #e68226;
+    font-weight: 700;
+}
+.daraz-header .header-wrapper a:hover{
+    border-bottom: 1px solid #e68226;
+    color: #e68226;
+    transition: all 0.2s ease;
+}
+.logo-header{
+    line-height: 20px;
+    padding: 16px 40px;
+}
+.logo-header .logo{
+    float: left;
+}
+.logo-header .logo img{
+    width: 150px;
+    height: 41px;
+}
+/*search*/
+.logo-header .main_search_form {
+    width: 60px;
+    float: left;
+    padding-left: 100px;
+}
+.fix {
+
+}
+.logo-header .search_box_view .email{
+    position: relative;
+    width: 650px;
+    float: left;
+    height: 40px;
+    font-size: 12px;
+    color: #333 ;
+    background:#f6f6f6;
+    line-height: 45px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+}
+.logo-header .search_box_view .email::placeholder {
+    text-indent: 15px;
+    font-weight: lighter;
+    font-size: 15px;
+}
+.logo-header .search_box_view .submit{
+    width: 30px;
+    font-size: 12px;
+    font-weight: 150;
+
+    background: #e68226;
+    color: #fff;
+    height: 40px;
+    line-height: 45px;
+    text-transform: capitalize;
+    padding-right: 10px;
+    border: none;
+    transition: all 0.3s ease;
+    position: relative;
+}
+.logo-header .search_box_view .submit i {
+    color: #ffffff;
+    margin-left: 10px;
+
+}
+.daraz-header .daraz-aap {
+    float: right;
+    display: inline-block;
+}
+.daraz-header .daraz-aap i{
+    font-size: 30px;
+    float: left;
+    margin-right: 50px;
+    overflow: hidden;
+    margin-top: auto;
+}
+.daraz-header .daraz-aap img{
+    margin-right: 50px;
+    width: 200px;
+    height: 45px;
+    float: right;
+    margin-top: -10px;
+}
+/*slider section*/
+.slider-section {
+    height: 346px;
+    width: 100%;
+    background: aquamarine;
+}.slider-background-colors {
+    width: 94%;
+    height: 100%;
+    margin: 0 auto;
+}
+.slider-section .menu-section {
+    width: 17%;
+    height: 100%;
+    float: left;
+    background: #ffffff;
+}
+.slider-section  .images {
+    width: 83%;
+    height: 100%;
+    float: left;
+    position: relative;
+    left: 0;
+}
+.slider-section .images img {
+    height: 100%;
+    width: 100%;
+}
+/*menu*/
+.slider-section .menu-down-style a{
+    position: relative;
+    left: 10px;
+    top: 5px;
+    line-height: 2;
+}
+.slider-section .menu-down-style a:hover{
+    color: rgb(6, 199,214);
+}
+.slider-section .menu-down-style a {
+    text-decoration: none;
+    display: block;
+    color: #6e6e6e;
+    text-transform: capitalize;
+}
+
+/*content*/
+.content-card {
+width: 100%;
+height: 70%;
+margin-top: 0 auto;
+
+}
+.content-card .card-wrapper {
+    width: 100%;
+    height: 95%;
+    margin: 0 auto;
+    padding-left: 75px;
+}
+#content-logo-1 {
+    width: 3%;
+    height: 10%;
+    margin-top: 3px;
+
+    
+}
+#content-text-1 {
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    bottom: 10px;
+    left: 5px;
+    color: black;
+    padding-right: 100px;
+}
+#content-logo-2 {
+    width: 3%;
+    height: 10%;
+    margin-top: 3px;
+    
+}
+#content-text-2 {
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    bottom: 10px;
+    left: 5px;
+    color: black;
+    padding-right: 150px;
+}
+#content-logo-3 {
+    width: 3%;
+    height: 10%;
+    margin-top: 3px;
+    
+}
+#content-text-3 {
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    bottom: 10px;
+    left: 5px;
+    color: black;
+    padding-right: 150px;
+}
+#content-logo-4 {
+    width: 3%;
+    height: 10%;
+    margin-top: 3px;
+    
+}
+#content-text-4 {
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    bottom: 10px;
+    left: 5px;
+    color: black;
+    padding-right: 150px;
+}
+#content-logo-5 {
+    width: 3%;
+    height: 10%;
+    margin-top: 3px;
+    
+}
+#content-text-5 {
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    bottom: 10px;
+    left: 5px;
+    color: black;
+
+}
+/*flashsell*/
+.flash-sell {
+    font-size: 22px;
+    color: #424242;
+    margin-left: 50px;
+    padding: 15px;
+}
+
+/*card-content-header*/
+.card-content-header {
+    overflow: hidden;
+    border-bottom: #d5d5d5 1px solid;
+    height: 60px;
+    line-height: 60px;
+    margin-bottom: 10px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 30%;
+    padding: 5px;
+  }
+/*footer section*/
+.desktop-footer {
+    font-size: 12px;
+    font-weight: 200;
+    padding: 0;
+    min-width: 1188px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    background: lightslategrey;
+    box-sizing: border-box;
+    color: #999;
+
+}
+ .footer-first {
+    background: #2e2e54;
+    padding: 22px 0 30px;
+    color: #fff;
+
+
+}
+.draz-footer-inner {
+    margin: 0 auto;
+    width: 1100px;
+    overflow: hidden;
+
+}
+.draz-footer-width-25 {
+    width: 25%;
+    float: left;
+    overflow: hidden;
+}
+.draz-footer-width-50 {
+    float: left;
+}
+.footer-first .draz-footer-width-50 {
+    width: 50%;
+    overflow: hidden;
+}
+
+#icon-logo-qr {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+.footer-first .icon-logo-button-align {
+margin-top: 22px;
+}
+.footer-first .icon-logo-lagada {
+    width: 42px;
+    height: 42px;
+}
+.footer-first .draz-footer-float-left {
+    float: left;
+    margin-left: 20px;
+}
+
+
+.footer-first .draz-footer-app-download .icon-appstore-footer {
+    margin-top: 1px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+}
+.pull-left {
+    float: left;
+}
+.draz-footer-sprit {
+    background-image: url(https://laz-img-cdn.alicdn.com/tfs/TB1iD3fNbvpK1RjSZFqXXcXUVXa-317-281.png);
+    display: inline-block;
+}
+.icon-yatra-appstore {
+    background-position: 0-110px;
+    width: 120px;
+    height: 40px;
+
+}
+.icon-yatra-google {
+background-position: 0-65px;
+width: 120px;
+height: 40px;
+}
+.icon-yatra-houwei {
+    background-position: 0-65px;
+    width: 120px;
+    height: 40px;
+}
+.footer-first .draz-footer-app-download .icon-yatra-houwei {
+    background-image: url(https://laz-img-cdn.alicdn.com/imgextra/i1/O1CN019Azkom1wUwdwcWPgA_!!6000000006312-2-tps-1772-532.png);
+    background-size: contain!important;
+    background-position: 0!important;
+    background-repeat: no-repeat!important;
+}
+.footer-second {
+    padding: 24px 0;
+    min-height: 220px;
+    background-color: #fff;
+    position: relative;
+}
+.drz-footer-inner {
+    margin: 0 auto;
+    width: 1188px;
+    overflow: hidden;
+}
+.footer-second .payment-column {
+    margin-bottom: 24px;
+}
+.drz-footer-width-25 {
+    width: 25%;
+    float: left;
+    overflow: hidden;
+}
+.footer-second .footer-title {
+    margin: 0 0 16px;
+}
+.footer-second .footer-title {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #333;
+}
+.footer-second .drz-icon-payment {
+    margin: 0 13px 11px 0;
+}
+.drz-footer-sprit {
+    background-image: url(//laz-img-cdn.alicdn.com/tfs/TB1iD3fNbvpK1RjSZFqXXcXUVXa-317-281.png);
+    display: inline-block;
+}
+.icon-yatra-payment-1 {
+    background-position: -161px 0;
+    width: 55px;
+    height: 40px;
+}
+.icon-yatra-payment-7 {
+    background-position: -60px -200px;
+    width: 55px;
+    height: 40px;
+}
+.icon-yatra-payment-8 {
+    background-position: -120px -200px;
+    width: 55px;
+    height: 40px;
+}
+.icon-yatra-payment-3 {
+    background-position: -221px -45px;
+    width: 55px;
+    height: 40px;
+}
+.icon-yatra-payment-2 {
+    background-position: -221px 0;
+    width: 55px;
+    height: 40px;
+}
+.footer-third {
+    background: #f1f1f1;
+    color: #888;
+    padding: 24px 0;
+}
+.drz-footer-inner {
+    margin: 0 auto;
+    width: 1188px;
+    overflow: hidden;
+}
+.drz-footer-width-50 {
+    width: 50%;
+    overflow: hidden;
+    float: left;
+}
+.footer-third .drz-footer-left {
+    column-count: 2;
+}
+.footer-third .drz-footer-about {
+    padding-right: 5px;
+    margin: 10px;
+}
+.footer-third .drz-footer-title {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 0 0 10px;
+    color: #0c0c0c;
+}
+
+.drz-footer-width-25 {
+    width: 25%;
+    float: left;
+    overflow: hidden;
+}
+.footer-third .drz-footer-top-category {
+    padding-right: 84px;
+}
